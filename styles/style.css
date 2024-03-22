@@ -14,6 +14,7 @@
   grid-template-rows: 35% min-content 21%;
   padding: 10px;
   min-block-size: 668px;
+  block-size: 100vh;
 }
 
 .header__title {
@@ -381,6 +382,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 9% 1fr 1fr 1fr; 
   }
+
   .section:nth-child(2) .section-card-title {
     grid-column: 1/2;
     grid-row: 1/2;
