@@ -12,7 +12,7 @@
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 35% min-content 21%;
-  padding: 10px 10px 0px;
+  padding: 10px;
   min-block-size: 668px;
   height: 100vh;
 }
@@ -123,8 +123,15 @@
   border-inline-end: 1px solid var(--accent-color-group);
 }
 
+.main {
+  display: grid;
+  gap: 50px;
+  margin-top: 40px;
+  padding: 0 10px;
+}
+
+
 .section {
-  padding: 50px 10px 0px;
   display: grid;
   gap: 20px;
   align-items: start;
@@ -197,7 +204,8 @@
 }
 
 .footer {
-  padding: 50px 10px 10px 10px;
+  margin-top: 50px;
+  padding: 0 10px;
   position: relative;
   display: grid;
   min-block-size: 667px;
