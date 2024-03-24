@@ -11,10 +11,11 @@
   --accent-background-text: rgb(53, 52, 48);
   --accent-background-image: url(../images/cover-image-light.png);
   --accent-background-color: rgb(255, 141, 203);
-  --accent-font-family: 'IBM Plex mono', monospace;
+  --accent-font-family: "IBM Plex mono", monospace;
   --font-size-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --font-size-title-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 6.5rem);
-  --border-color-hover: rgba(50, 49, 45, 0.4);
+  --border-color-hover-opacity: rgba(50, 49, 45, 0.4);
+  --border-color: rgb(50, 49, 45);
   --accent-title-shadow: rgb(255, 141, 203);
   --accent-backgroundpage-color: rgb(255, 241, 247);
 }
@@ -27,16 +28,20 @@
     --accent-background-text: rgb(53, 52, 48);
     --accent-background-image: url(../images/cover-image-light.png);
     --accent-background-color: rgb(255, 141, 203);
-    --accent-font-family: 'IBM Plex mono', monospace;
+    --accent-font-family: "IBM Plex mono", monospace;
     --font-size-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     --font-size-title-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 6.5rem);
-    --border-color-hover: rgba(50, 49, 45, 0.4);
+    --border-color-hover-opacity: rgba(50, 49, 45, 0.4);
+    --border-color: rgb(50, 49, 45);
     --accent-title-shadow: rgb(255, 141, 203);
     --accent-backgroundpage-color: rgb(255, 241, 247);
   }
 
+  .page .theme_auto .rec {
+    display: none;
+  }
 }
 
-.page.theme_light .header__rec {
+.page .theme_light .header__rec {
   display: none;
 }
