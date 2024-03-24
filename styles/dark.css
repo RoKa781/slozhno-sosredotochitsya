@@ -11,10 +11,11 @@
   --accent-background-text: rgb(0, 0, 40);
   --accent-background-image: url(../images/cover-image-dark.png);
   --accent-background-color: rgb(255, 0, 112);
-  --accent-font-family: 'IBM Plex mono', serif;
+  --accent-font-family: 'IBM Plex mono', monospace;
   --font-size-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --font-size-title-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 6.5rem);
   --border-color-hover: rgba(255, 0, 112, 0.4);
   --accent-title-shadow: rgb(255, 0, 112);
+  --accent-backgroundpage-color: rgb(0, 0, 40);
 }
 
