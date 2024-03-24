@@ -37,11 +37,11 @@
     --accent-backgroundpage-color: rgb(255, 241, 247);
   }
 
-  .page .theme_auto .rec {
+  .page.theme_auto .header__rec {
     display: none;
   }
 }
 
-.page .theme_light .header__rec {
+.page.theme_light .header__rec {
   display: none;
 }
